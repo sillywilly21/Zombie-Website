@@ -5,10 +5,12 @@
 }
 
 .nav-bar {
-    background-color: #8a0303;
-    padding: 3px 40px;
-    height: 88px;
-    font-family: myFirstFont;
+  background-color: #8a0303;
+  padding: 3px 40px;
+  height: 88px;
+  font-family: myFirstFont;
+  border-radius: 15px; /* Add this property to round the corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add this property for a shadow effect */
 }
 
 .left {
