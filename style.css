@@ -98,6 +98,9 @@
 }
 
 
+body {
+  background-color: black; /* Set the background color of the body element to black */
+}
 
 .main {
 background-color: black;
