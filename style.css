@@ -9,8 +9,9 @@
   padding: 3px 40px;
   height: 88px;
   font-family: myFirstFont;
-  border-radius: 15px; /* Add this property to round the corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add this property for a shadow effect */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Add this property to ensure the background fills behind the rounded corners */
 }
 
 .left {
