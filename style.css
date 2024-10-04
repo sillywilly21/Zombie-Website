@@ -11,7 +11,9 @@
   font-family: myFirstFont;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow: hidden; /* Add this property to ensure the background fills behind the rounded corners */
+  overflow: hidden;
+  position: relative; /* Add this property to establish a stacking context */
+  z-index: 1; /* Add this property to control the stacking order */
 }
 
 .left {
