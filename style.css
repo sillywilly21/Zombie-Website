@@ -100,11 +100,11 @@
 
 
 .main {
-    background-image: url(bg.JPG);
-    background-repeat: no-repeat;
-    height: 1000px;
-    background-position: center;
-    background-size: cover;
+  background-image: url(bg.JPG);
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to cover the entire viewport height */
+  background-position: center;
+  background-size: cover;
 }
 
 
