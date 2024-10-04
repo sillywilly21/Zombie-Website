@@ -100,7 +100,7 @@
 
 
 .main {
-  background-image: url(bg.JPG);
+background-color: black;
   background-repeat: no-repeat;
   height: 100vh; /* Set the height to cover the entire viewport height */
   background-position: center;
