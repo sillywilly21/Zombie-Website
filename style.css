@@ -118,6 +118,12 @@
 .main center .headings p {
     color: #ff0000;
     text-shadow: 1px 5px 0px #ffffff;
+    text-shadow: 
+        0 0 5px rgba(255, 0, 0, 0.8),   /* Red glow */
+        0 0 10px rgba(255, 0, 0, 0.8), 
+        0 0 15px rgba(255, 0, 0, 0.8), 
+        0 0 20px rgba(255, 0, 0, 0.8), 
+        0 0 25px rgba(255, 0, 0, 0.8); /* Larger outer glow */
 }
 
 .main center .bottom {
